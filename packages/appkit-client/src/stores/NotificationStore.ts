@@ -12,7 +12,6 @@ export default class NotificationStore {
 
   @action
   displayInfoModal = (title: string, message: string) => {
-    console.log(`DISPLAYING INFO MODAL`)
     this.infoModalMessage = message
     this.infoModalTitle = title
     this.infoModalOpen = true

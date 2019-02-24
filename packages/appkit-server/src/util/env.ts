@@ -1,5 +1,6 @@
 /**
  * retrieve a JSON config environment variable, parse it, and return it
+ * @returns {Object} The JS object corresponding to the JSON stored in environment
  */
 export function getServerConfigEnvVar(envVarName: string): Object {
   try {
